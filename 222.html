@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+     function moveleft () {
+        var h = document.getElementById("myH2") ;
+         h.style.position = "absolute";
+         h.style.right = 0;}
+
+
+         function moveback() {
+         var h = document.getElementById( "myH2") ;
+         h.style.position = "relative";}
+        
+    </script>
+    <style>
+        .move{
+            
+            position: absolute;
+            top:10%;
+            right:5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="move">
+    <h2 id="myH2"
+    onmouseover="moveleft()"
+    onmouseout="moveback()">移動標題文字</h2></div>
+</body>
+</html>
