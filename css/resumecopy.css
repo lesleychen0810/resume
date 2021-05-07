@@ -5,6 +5,18 @@
 
  }
 
+ .people{
+  position: relative;
+  left:68%;
+  top:48.5%;
+}
+
+.people2{
+  position: relative;
+  left:90%;
+  top:-155%;
+  
+}
 
 header{
   
@@ -16,7 +28,7 @@ header{
   position: relative;
   columns:2;
   column-rule: silver solid 1px;
-  border: 5px solid 	#770077;
+  border: 7px solid 	#770077;
   margin-top: 5%;
   margin-bottom: 5%;
    }
@@ -63,7 +75,7 @@ section{
     position: relative;
     font-family: 'Original Surfer';
     font-size: 64px;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 .header1{
   background-color: #CCDDFF;
@@ -74,7 +86,7 @@ section{
   height: 200px;
   width: 90%;
   position: relative;
-  border: 5px solid 	#770077;
+  border: 7px solid 	#770077;
   font-family: 'Original Surfer';
   font-size: 54px;
   margin-top: 1%;
@@ -88,6 +100,8 @@ section{
   font-family: 'Pacifico';
   font-size: 32px;
   text-align: right;
+  position: relative;
+  right:10%;
 }
 .too{
   font-family: 'Gloria Hallelujah';
@@ -152,10 +166,13 @@ section{
     width: 90%;
     height:600PX;
     position: relative;
-    border: 5px solid 	#770077;
+    border: 7px solid 	#770077;
     background-image: url(pic/color.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+   
   
  
     
@@ -248,10 +265,12 @@ section{
   width: 90%;
   height: 450px;
   position: relative;
-  border: 6px solid 	#770077;
+  border: 7px solid 	#770077;
   background-image: url(pic/123.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  
+
 }
 
 .s3left{
@@ -277,12 +296,12 @@ section{
   background-color: #cdbcea;
   margin: 0 auto;
   width: 90%;
-  height: 800PX;
+  height: 900PX;
   position: relative;
-  border-right: 5px solid 	#770077;
-  border-left: 5px solid 	#770077;
-  border-top: 5px solid 	#770077;
-  border-bottom: 5px solid 	#770077;
+  border-right: 7px solid 	#770077;
+  border-left: 7px solid 	#770077;
+  border-top: 7px solid 	#770077;
+  border-bottom: 7px solid 	#770077;
 }
 
 .s4left{
@@ -415,7 +434,7 @@ svg{
   position: relative;
   width: 150px;
   height: 150px;
-  z-index: 999;
+  z-index: 999  ;
 }
 svg circle{
   width: 50%;
@@ -600,7 +619,7 @@ svg circle:nth-child(2){
 
 
   #blog-category{
-    border: 1px;
+    border: 2px;
     border-color: gray;
     border-style: outset;
     width: 400px;
@@ -617,7 +636,7 @@ svg circle:nth-child(2){
 
 
 #blog-category2{
-  border: 1px;
+  border: 2px;
   border-color: gray;
   border-style: outset;
   width: 400px;
@@ -636,7 +655,7 @@ svg circle:nth-child(2){
     }
 
 #blog-category3{
-  border: 1px;
+  border: 2px;
   border-color: gray;
   border-style: outset;
   width: 400px;
@@ -705,9 +724,9 @@ svg circle:nth-child(2){
         align-content: center;
         align-items: center;
         justify-content:space-between;
-        border-right: 5px solid 	#770077;
-        border-left: 5px solid 	#770077;
-        border-top: 5px solid 	#770077;
+        border-right: 7px solid 	#770077;
+        border-left: 7px solid 	#770077;
+        border-top: 7px solid 	#770077;
         margin-top: 5%;
   
 }
@@ -771,9 +790,9 @@ svg circle:nth-child(2){
         bottom: 0%;
 	      margin: 0%;
         margin-bottom: 2%;
-        border-right: 5px solid 	#770077;
-        border-left: 5px solid 	#770077;
-        border-bottom: 5px solid 	#770077;
+        border-right: 7px solid 	#770077;
+        border-left: 7px solid 	#770077;
+        border-bottom: 7px solid 	#770077;
 }
 
 
@@ -799,130 +818,3 @@ svg circle:nth-child(2){
   background-color: #dabfa5;
 
 }
-
-.sideMenu {
-  width: 300px;
-  height: 100%;
-  background-color: #ff7575;
-  border-right: 3px solid #d1d1d1;
-  display: flex;
-  //讓 sideMenu 裡面的元素變成橫排
-  flex-direction: column;
-  //讓 flex 的方向變成直排
-  padding: 50px 0;
-  //因為有 boxsizing 的關係，所以不會有 Y 軸 bar
-  box-shadow: 5px 0 5px hsla(240, 40%, 15%, .6);
-  //H 為 hue(色相)、S 為 saturation(飽合度)、L 為 lightness(亮度)，a透明度
-  position: relative;
-  // label 定位在這個上
-  transform: translateX(-100%);
-  // 將 sideMenu 左橫移 100%，使他到螢幕外
-  transition: 0.5s;
-  // 側邊選單收合的時間差 
-
-  form {
-      display: flex;
-      //讓 form 裡面的元素橫向排列
-      margin: 0 10px 50px;
-      border-radius: 100px;
-      border: 1px solid #fff;
-
-      input {
-          width: 230px;
-      }
-
-      button {
-          width: 50px;
-      }
-
-      input,
-      button {
-          border: none;
-          padding: 5px 10px;
-          background-color: transparent;
-          color: #fff;
-
-      }
-
-      //把共同的屬性拉出來寫一次就好，CSS會比較漂亮且清楚
-
-      input:focus,
-      button:focus {
-          outline: none;
-          //讓表單不要有 focus 效果
-      }
-  }
-
-  label {
-      position: absolute;
-      width: 20px;
-      height: 80px;
-      background-color: #d1d1d1;
-      color: #686666;
-      // 絕對定位在 sideMenu 上
-      right: -20px;
-      top: 0;
-      bottom: 0;
-      margin: auto;
-      line-height: 80px;
-      text-align: center;
-      border-radius: 0 5px 5px 0;
-      // 標籤加圓角
-      box-shadow: 5px 0 5px hsla(240, 40%, 15%, .6);
-  }
-
-}
-
-#sideMenu--active:checked+.sideMenu {
-  transform: translateX(0);
-
-  // 當我點擊 sideMenu 時，checkbox 會啟動 id，讓側邊選單跑出來
-  label .fas {
-      transform: scaleX(-1);
-      // 使 label 裡的圖案橫向反轉
-  }
-
-}
-
-#sideMenu--active {
-  position: absolute;
-  opacity: 0;
-  // 設定 checkbox 絕對定位，透明度是 0，就會隱藏 
-  z-index: -1;
-  // 為了保險不要讓該功能還選得到，可將其排序往後跳
-}
-
-.nav11 {
-  a {
-      display: block;
-      color: #fff;
-      padding: 20px 10px;
-      position: relative;
-
-      .fas {
-          margin-right: -1.1em;
-          //用 margin 的特性往右拉負值，讓文字靠左對齊
-          transform: scale(0);
-          //使圖示消失
-          transition: 0.3s;
-
-      }
-
-      &:hover .fas {
-          margin-right: 0em;
-          //使文字回到原來的位置
-          transform: scale(1) //使圖示出現
-      }
-
-      &+a::before {
-          content: '';
-          //要寫分隔線在選項中間，這邊使用偽元素呈現，使用偽元素一定要使用 content:''，不然不會有效果
-          position: absolute;
-          border-top: 1px dashed #ffffff;
-          left: 10px;
-          right: 10px;
-          top: 0px;
-          //使用絕對定位方式編寫，因為 padding已設定左右 10px，所以左右邊要推擠 10px
-          //然後使分隔線定位在 top:0px，固定在中間
-
-      }
