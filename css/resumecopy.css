@@ -1,17 +1,12 @@
  *{
      margin:0;
      padding:0;
-     
-
  }
-
-
 
 .people2{
   position: relative;
   left:90%;
   top:-155%;
-  
 }
 
 header{
@@ -47,6 +42,7 @@ top:85%;
   left:80%;
   z-index: 500;
 }
+
 /*自動隱藏超出長寬的圖片*/
 .post  {
   overflow: hidden;
@@ -67,9 +63,9 @@ top:85%;
   -o-transform: scale(1.05);
   -webkit-transform: scale(1.05);
   transform: scale(1.5, 1.5);
- 
-  
   }
+
+
 /* about me*/
 
 .header{
@@ -106,7 +102,10 @@ top:85%;
   position: relative;
   right:10%;
 }
-
+.myname{
+	font-family:Anton;
+	font-size:32px;
+}
 .too{
   font-family: 'Gloria Hallelujah';
   font-size: 22px;
