@@ -5,11 +5,7 @@
 
  }
 
- .people{
-  position: relative;
-  left:68%;
-  top:48.5%;
-}
+
 
 .people2{
   position: relative;
@@ -19,7 +15,6 @@
 }
 
 header{
-  
   padding: 20px;
   color: indigo;
   margin: 0 auto;
@@ -31,7 +26,7 @@ header{
   border: 7px solid 	#770077;
   margin-top: 5%;
   margin-bottom: 5%;
-   }
+ }
 
 section{
   margin-top: 5%;
@@ -45,11 +40,17 @@ section{
     box-shadow:-20px -20px cornsilk;
     margin-top:58px;
 }
+
+.clickhere{
+  position:absolute;
+top:85%;
+  left:80%;
+  z-index: 500;
+}
 /*自動隱藏超出長寬的圖片*/
 .post  {
   overflow: hidden;
   width: 50%;
- 
   }
   
   /*轉場的時間*/
@@ -69,6 +70,7 @@ section{
  
   
   }
+/* about me*/
 
 .header{
    text-align: center;
@@ -77,9 +79,9 @@ section{
     font-size: 64px;
     margin-top: 2%;
 }
+
 .header1{
   background-color: #CCDDFF;
-  background-image: url(photo/bg7.jpg);
   padding: 20px;
   color: #8F4586;
   margin: 0 auto;
@@ -96,6 +98,7 @@ section{
    font-family: 'Freckle Face';
     font-size: 64px;
 }
+
 .name{
   font-family: 'Pacifico';
   font-size: 32px;
@@ -103,10 +106,12 @@ section{
   position: relative;
   right:10%;
 }
+
 .too{
   font-family: 'Gloria Hallelujah';
   font-size: 22px;
 }
+
 .too1{
   font-family: 'Fascinate';
   font-size: 50px;
@@ -115,27 +120,27 @@ section{
   font-family: 'Indie Flower';
   font-size: 18px;
 }
-.section1{
-    vertical-align: middle;
 
+.section1{
+    columns:2;
+    column-rule: silver solid 5px;
+    vertical-align: middle;
     width: 80%;
     margin: 50px;
     margin-left: 18%;
     height: 300px;
     margin-top: 5%;
     margin-bottom: 40%;
-    columns:2;
-    column-rule: silver solid 5px;
-
 }
+
 .content1 span u{
   width: 50px;
 }
+
 .s1left{
   position: absolute;
   width: 50%;
-  top:20px;
-  
+  top:20px; 
 }
 .s1right{
   position: absolute;
@@ -156,37 +161,34 @@ section{
   top:200px;
 }
 
+
+/*  my past */
+
 .section2{
-  margin-top: 5%;
-  margin-bottom: 5%;
-  background-color: rgba(255, 255, 255, 0.589);
+    background-image: url(pic/color.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.589);
     padding: 20px;
     color: 	indigo;
     margin: 0 auto;
     width: 90%;
-    height:600PX;
+    height:630PX;
     position: relative;
-    border: 7px solid 	#770077;
-    background-image: url(pic/color.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-
-   
-  
- 
-    
+    border: 7px solid 	#770077; 
 }
   
 .s2left{
   position: absolute;
-  width: 30%;
+  width: 45%;
   font-size: 15PX;
 }
 .s2center{
   position: absolute;
   width: 30%;
-  left: 33%;
+  left: 35%;
   font-size: 15PX;
 }
 .s2right{
@@ -199,7 +201,6 @@ section{
 
 .text{
   text-align: left;
- 
   font-size: 18px;
   color:indigo;
 }
@@ -209,26 +210,23 @@ section{
 }
 .certificate h3{
   padding: 10px;
-  background-color:rgba(173, 84, 84, 0.5);
   width: 300px;
   border-radius: 10px;
 }
 
-.bt{
-  width: 70%;
-  margin-top: 50px;
-}
+
 .accordion {
   background-color:lavender;
   color: 	slateblue;
   cursor: pointer;
   width: 90%;
   border: none;
-  text-align: left;
   outline: none;
   transition: 0.4s;
   border-radius: 10px;
   margin-top: 5px;
+  text-align: left;
+
 }
 
 .active, .accordion:hover {
@@ -240,23 +238,24 @@ section{
   width: 90%;
   display: none;
   background-color:  	#DDDDFF;
-  
   overflow: hidden;
   border-radius: 10px;
   border: 2px solid #770077;
 }
-.ct{
+
+.aac{
   margin-top: 10%;
 }
+
 .s2text{
   text-align: center;
   width: 300px;
-  background-color: rgb(236, 134, 168);
   border-radius: 10px;
   font-size: 20px;
   margin-left: 5%;
 }
 
+/* skills*/
 
 .s3{
   background-color: rgba(255, 255, 255, 0.589);
@@ -269,8 +268,6 @@ section{
   background-image: url(pic/123.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
-
 }
 
 .s3left{
@@ -279,6 +276,7 @@ section{
   width: 80%;
   left:-20%;
 }
+
 .s3right{
   position: absolute;
   top: 10%;
@@ -287,8 +285,252 @@ section{
 }
 
 
+.right1{
+  position: absolute;
+  width: 60%;
+  left: 50%;
+
+}
+
+.ttext{
+  background-color: rgba(255, 255, 255, 0.589);
+  padding: 5px;
+  margin-left: 27%;
+  width: 50%;
+  z-index: -2;
+ 
+}
+
+.icon{
+  position: relative;
+  display: flex; 
+  width: 50%;
+  justify-content:space-around;
+  margin: 0 auto;
+}
+
+.icon .ms{
+  position: relative;
+  width: 80px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.circless{
+  position: relative;
+  height: 130px;
+  width: 130px;
+  border-radius:50% ;
+  background:  white;
+  background-image: url(photo/bg4.jpg);
+}
+.circless .word{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.circless .word h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color:grey;
+  transition: 0.5s;
+}
+.ms:hover .circle .word h2{ 
+  color: #777;
+  font-size: 40px;
+}
+svg{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  z-index: 999  ;
+}
+svg circle{
+  width: 50%;
+  height: 50%;
+  fill: none;
+  stroke:rgb(71, 57, 48);
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px,5px);
+}
+svg circle:nth-child(2){ 
+  stroke-dasharray:380;
+  transition: 0.5s;
+}       
+.ms:nth-child(1) svg circle:nth-child(2){
+  stroke-dashoffset: calc(380 - (380 * 78) / 100);
+  stroke:	slateblue; 
+}
+
+.ms:nth-child(2) svg circle:nth-child(2){
+  stroke-dasharray: 380;
+  stroke-dashoffset: calc(380 - (380 * 83) / 100);
+  stroke:	slateblue; 
+}
+
+.ms:nth-child(3) svg circle:nth-child(2){
+  stroke-dashoffset: calc(380 - (380 * 90) / 100);
+  stroke:	slateblue;
+}
+
+.ms:nth-child(4) svg circle:nth-child(2){
+  stroke-dashoffset: calc(380 - (380 * 85) / 100);
+  stroke:	slateblue;
+}
+
+.ms:nth-child(5) svg circle:nth-child(2){
+  stroke-dashoffset: calc(380 - (380 * 60) / 100);
+  stroke:	slateblue;
+}
+
+.ms:nth-child(6) svg circle:nth-child(2){
+  stroke-dashoffset: calc(380 - (380 * 75) / 100);
+  stroke:	slateblue;
+}
+
+.more {
+  position: relative;
+  font-size: 12px;
+}
+
+.more:hover:after {
+  background: #770077;
+  border-radius: 10px;
+  color: #fff;
+  content: attr(ishow);
+  z-index: 1000;
+  width: 100px;
+  height: auto;
+  opacity: 0.9;
+  left: 30%;
+  bottom: 80%;
+  padding: 5px 15px;
+  position: absolute;
+}
+
+#wrapper
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:995px;
+}
+
+#wrapper h1
+{
+ margin-top:100px;
+ font-size:55px;
+ color:#2E64FE;
+}
+
+#wrapper h1 a
+{
+ color:#2E64FE;
+ font-size:18px;
+}
+
+.skill_name 
+{
+ margin-left:250px;
+ width:50px;
+ height:40px;
+ line-height:40px;
+ font-weight:bold;
+ font-size:13px;
+ color:white;
+ clear:both;
+ float:left;
+ border-radius:3px 0px 0px 3px;
+}
+
+#skill_php
+{
+ background-color:#088A85;
+}
+
+#skill_asp
+{
+ background-color:#5858FA;
+}
+
+#skill_jsp
+{
+ background-color:#04B404;
+}
+
+#skill_C
+{
+ background-color:#0066FF;
+}
+
+.skillbar_wrapper 
+{
+ float:left;
+ position:relative;
+ display:block;
+ margin-bottom:15px;
+ width:400px;
+ background-color:#E6E6E6;
+ height:40px;
+ border-radius:0px 3px 3px 0px;
+}
+
+.skillbar_bar 
+{
+ height:40px;
+ width:0px;
+ border-radius:0px 3px 3px 0px;
+}
+
+#skillbar_php
+{
+ background-color:#01DFD7;
+}
+
+#skillbar_asp
+{
+ background-color:#8181F7;
+}
+
+#skillbar_jsp
+{
+ background-color:#01DF01;
+}
+
+#skillbar_C
+{
+ background-color:#0000FF;
+}
+
+.skill_bar_percent 
+{
+ position:absolute;
+ right:10px;
+ top:0;
+ font-size:12px;
+ height:35px;
+ line-height:35px;
+ color:black;
+}
+
+.page-wrap {
+  padding: 2em;
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+}
 
 
+/* projects*/
 
 .section4{
   top:50%;
@@ -321,7 +563,6 @@ left: 70%;
 
 
 /* Animation */
-
 nav {
   float: left;
   width: 30%;
@@ -336,9 +577,11 @@ nav {
     height: auto;
   }
 }
+
 .miniShowHideBorder {
   animation: miniShowHideBorder 1s linear 1s infinite alternate;
 }
+
 @keyframes miniShowHideBorder {
   0% {
     border-image-source: transparent;
@@ -353,8 +596,6 @@ animation: myfirst 0.5s infinite;    /*無限次跳動   infinite*/
 
 }
 
-
-
 @keyframes myfirst {
 0% {
   transform: translate(0px, 0px);
@@ -367,238 +608,7 @@ animation: myfirst 0.5s infinite;    /*無限次跳動   infinite*/
 }
 }
 
-.right1{
-  position: absolute;
-  width: 60%;
-  left: 50%;
 
-}
-.ttext{
-  background-color: rgba(255, 255, 255, 0.589);
-  /*background-image: url(photo/bg7.jpg);*/
-  padding: 5px;
-  margin-left: 27%;
-  width: 50%;
-  z-index: -2;
- 
-}
-
-.s1con{
-  position: relative;
-  display: flex; 
-  width: 50%;
-  justify-content:space-around;
-  margin: 0 auto;
-
- 
-
-}
-.s1con .card{
-  position: relative;
-  width: 80px; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-}
-.cir{
-  position: relative;
-  height: 130px;
-  width: 130px;
-  border-radius:50% ;
-  background:  white;
-  background-image: url(photo/bg4.jpg);
-}
-.cir .word{
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-}
-.cir .word h3 {
-  font-weight: 700;
-  font-size: 30px;
-  color:grey;
-  transition: 0.5s;
-}
-.card:hover .cir .word h2{ 
-  color: #777;
-  font-size: 40px;
-}
-svg{
-  position: relative;
-  width: 150px;
-  height: 150px;
-  z-index: 999  ;
-}
-svg circle{
-  width: 50%;
-  height: 50%;
-  fill: none;
-  stroke:rgb(71, 57, 48);
-  stroke-width: 10;
-  stroke-linecap: round;
-  transform: translate(5px,5px);
-}
-svg circle:nth-child(2){ 
-  stroke-dasharray:380;
-  transition: 0.5s;
-}       
-.card:nth-child(1) svg circle:nth-child(2){
-  stroke-dashoffset: calc(380 - (380 * 78) / 100);
-  stroke:	slateblue; 
-}
-
-.card:nth-child(2) svg circle:nth-child(2){
-  stroke-dasharray: 380;
-  stroke-dashoffset: calc(380 - (380 * 83) / 100);
-  stroke:	slateblue; 
-}
-
-.card:nth-child(3) svg circle:nth-child(2){
-  stroke-dashoffset: calc(380 - (380 * 90) / 100);
-  stroke:	slateblue;
-}
-
-.card:nth-child(4) svg circle:nth-child(2){
-  stroke-dashoffset: calc(380 - (380 * 85) / 100);
-  stroke:	slateblue;
-}
-
-.card:nth-child(5) svg circle:nth-child(2){
-  stroke-dashoffset: calc(380 - (380 * 60) / 100);
-  stroke:	slateblue;
-}
-
-.card:nth-child(6) svg circle:nth-child(2){
-  stroke-dashoffset: calc(380 - (380 * 75) / 100);
-  stroke:	slateblue;
-}
-
-.tags {
-  position: relative;
-  font-size: 12px;
-}
-.tags:hover:after {
-  background: #770077;
-  border-radius: 10px;
-  color: #fff;
-  content: attr(ishow);
-  left: 30%;
-  bottom: 80%;
-  padding: 5px 15px;
-  position: absolute;
-  z-index: 1000;
-  width: 100px;
-  height: auto;
-  opacity: 0.8;
-}
-
-#wrapper
-{
- margin:0 auto;
- padding:0px;
- text-align:center;
- width:995px;
-}
-#wrapper h1
-{
- margin-top:100px;
- font-size:55px;
- color:#2E64FE;
-}
-#wrapper h1 a
-{
- color:#2E64FE;
- font-size:18px;
-}
-.skill_name 
-{
- margin-left:250px;
- width:50px;
- height:40px;
- line-height:40px;
- font-weight:bold;
- font-size:13px;
- color:white;
- clear:both;
- float:left;
- border-radius:3px 0px 0px 3px;
-}
-#skill_php
-{
- background-color:#088A85;
-}
-#skill_asp
-{
- background-color:#5858FA;
-}
-#skill_jsp
-{
- background-color:#04B404;
-}
-#skill_C
-{
- background-color:#0066FF;
-}
-.skillbar_wrapper 
-{
- float:left;
- position:relative;
- display:block;
- margin-bottom:15px;
- width:400px;
- background-color:#E6E6E6;
- height:40px;
- border-radius:0px 3px 3px 0px;
-}
-.skillbar_bar 
-{
- height:40px;
- width:0px;
- border-radius:0px 3px 3px 0px;
-}
-#skillbar_php
-{
- background-color:#01DFD7;
-}
-#skillbar_asp
-{
- background-color:#8181F7;
-}
-#skillbar_jsp
-{
- background-color:#01DF01;
-}
-#skillbar_C
-{
- background-color:#0000FF;
-}
-
-.skill_bar_percent 
-{
- position:absolute;
- right:10px;
- top:0;
- font-size:12px;
- height:35px;
- line-height:35px;
- color:black;
-}
-
-
-
-.page-wrap {
-  padding: 2em;
-  background-color: #fff;
-  width: 50%;
-  margin: 0 auto;
-}
 
     
 
@@ -670,16 +680,20 @@ svg circle:nth-child(2){
 	box-shadow: 2px 2px 5px -2px rgba(20%,20%,40%,0.7);
 	font-size: 0px;
   z-index: 10;
-    }
+}
 
+.people{
+  position: relative;
+  left:68%;
+  top:48.5%;
+}
+  
 
-    
-
- .hover {
+.hover {
    
    }
 
-  .hover img {
+.hover img {
     position:absolute;
     top: 150px;
     left: 48px;
@@ -687,7 +701,7 @@ svg circle:nth-child(2){
   }
   
   
-  .hover img:nth-of-type(2):hover{
+.hover img:nth-of-type(2):hover{
     opacity:0; 
   }
 
@@ -713,21 +727,24 @@ svg circle:nth-child(2){
   margin-right: 5%;
  
 }
+
+/* footer*/
+
 .footer{
-	      width:90%;
-	      background-color:thistle;
-      	position:relative;
-        bottom: 5%;
-        left: 5%;
-        display: flex;
-        text-align: center;
-        align-content: center;
-        align-items: center;
-        justify-content:space-between;
-        border-right: 7px solid 	#770077;
-        border-left: 7px solid 	#770077;
-        border-top: 7px solid 	#770077;
-        margin-top: 5%;
+	width:90%;
+	background-color:thistle;
+  position:relative;
+  bottom: 5%;
+  left: 5%;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content:space-between;
+  border-right: 7px solid 	#770077;
+  border-left: 7px solid 	#770077;
+  border-top: 7px solid 	#770077;
+  margin-top: 5%;
   
 }
 
@@ -736,14 +753,13 @@ svg circle:nth-child(2){
   border: none;
   background-color: inherit;
   font-family: inherit;
- 
   justify-content: space-evenly;
 }
+
 .navbtn2 h3{
   font-size: 15px;
   font-weight: bold;
   text-decoration: none;
- 
   align-items: center;
   margin-top: 40px;
 }
@@ -753,11 +769,10 @@ svg circle:nth-child(2){
   color: #844200;
   font-weight: bold;
   text-decoration: none;
- 
   justify-content: space-evenly;
   cursor: pointer;
-
 }
+
 .navphoto2{
   width: 30%;
   outline: none;
@@ -767,7 +782,6 @@ svg circle:nth-child(2){
   right:20px;
 }
 
-
 .navphoto2 img{
   width: 100%;
   height: 40px;
@@ -776,30 +790,40 @@ svg circle:nth-child(2){
   cursor: pointer;
 }
 
-
-
-
-.co{
-        text-align:center;
-        font-size:20px;
-        width:90%;
-        left: 5%;
-	      background-color:thistle;
-        position:relative;
-        height:40px;
-        bottom: 0%;
-	      margin: 0%;
-        margin-bottom: 2%;
-        border-right: 7px solid 	#770077;
-        border-left: 7px solid 	#770077;
-        border-bottom: 7px solid 	#770077;
+.tttext{
+  font-family: ‘cwTeXFangSong’, serif;
+  font-size: x-large;
+  
 }
 
+.click{
+  position: absolute;
+  bottom: 73%;
+  left:71%;
+  z-index: 500;
+}
 
+/* copyright*/
 
+.co{
+  text-align:center;
+  font-size:20px;
+  width:90%;
+  left: 5%;
+	background-color:thistle;
+  position:relative;
+  height:40px;
+  bottom: 0%;
+	margin: 0%;
+  margin-bottom: 2%;
+  border-right: 7px solid 	#770077;
+  border-left: 7px solid 	#770077;
+  border-bottom: 7px solid 	#770077;
+}
+
+/*top*/
 
 #myBtn {
-
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -816,5 +840,4 @@ svg circle:nth-child(2){
 
 #myBtn:hover {
   background-color: #dabfa5;
-
 }
